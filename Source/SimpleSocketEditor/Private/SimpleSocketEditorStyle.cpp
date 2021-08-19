@@ -47,7 +47,7 @@ TSharedRef< FSlateStyleSet > FSimpleSocketEditorStyle::Create()
 	Style->SetContentRoot(IPluginManager::Get().FindPlugin("SimpleSocketEditor")->GetBaseDir() / TEXT("Resources"));
 
 	Style->Set("SimpleSocketEditor.PluginAction", new IMAGE_BRUSH(TEXT("ButtonIcon_40x"), Icon40x40));
-	Style->Set("SimpleSocketEditor.PluginAction.Small", new IMAGE_BRUSH(TEXT("ButtonIcon_40x"), Icon40x40));
+	Style->Set("SimpleSocketEditor.PluginAction.Small", new IMAGE_BRUSH(TEXT("ButtonIcon_40x"), Icon20x20));
 	return Style;
 }
 
